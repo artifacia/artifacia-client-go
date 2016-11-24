@@ -1,7 +1,7 @@
 package main
 
 import (
-        "github.com/artifacia/go-artifacia/src/client"
+	"github.com/artifacia/artifacia-client-go/client"
 )
 
 func main() {

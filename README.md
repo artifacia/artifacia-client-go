@@ -13,7 +13,7 @@ The wrapper allows you to create your own index of images on which you would lik
 To install the package you can follow the steps:-
 
 ```
-go get github.com/artifacia/go-artifacia/
+go get -d github.com/artifacia/artifacia-client-go/
 ```
 
 ## Getting Started
@@ -23,7 +23,7 @@ The API is really easy and simple to use. First you need to visit [this](http://
 Check `example_*` to see how to access the client.
 
 ```go
-import "github.com/artifacia/go-artifacia/src/client"
+import "github.com/artifacia/go-artifacia/client"
 apiKey := "your_api_key"
 client := client.NewClient(apiKey)
 ```
@@ -33,7 +33,7 @@ The first step is to create a index of the items that you would like to store in
 
 ```go
 import (
-    "github.com/artifacia/go-artifacia/src/client"
+    "github.com/artifacia/go-artifacia/client"
     "encoding/json"
 )
 byt := []byte(sample_data)

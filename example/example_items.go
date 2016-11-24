@@ -2,7 +2,7 @@ package main
 
 import (
         "encoding/json"
-        "github.com/artifacia/go-artifacia/src/client"
+        "github.com/artifacia/artifacia-client-go/client"
 )
 
 func main() {
